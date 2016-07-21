@@ -1,0 +1,19 @@
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+
+Style/StringLiterals:
+  ConsistentQuotesInMultiline: true
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Metrics/LineLength:
+  Max: 120
+
+Style/RegexpLiteral:
+  EnforcedStyle: percent_r
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%w': '[]'
+    '%W': '[]'
